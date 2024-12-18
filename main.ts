@@ -183,7 +183,7 @@ namespace OLED {
 
     //% block="cursor move to line $n"
     //% weight=3
-    export function newLine(n:number) {
+    export function moveToLine(n:number) {
         charY=n
         charX = xOffset
     }
