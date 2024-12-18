@@ -180,6 +180,14 @@ namespace OLED {
         charY++
         charX = xOffset
     }
+
+    //% block="cursor move to line $n"
+    //% weight=3
+    export function newLine(n:number) {
+        charY=n
+        charX = xOffset
+    }
+
     function drawChar(x: number, y: number, c: string) {
         command(SSD1306_SETCOLUMNADRESS)
         command(x)
