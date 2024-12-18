@@ -6,9 +6,9 @@
   "OLED.init|block": "OLED 初始化 宽 %width 高 %height",
   "OLED.newLine|block": "新行",
   "OLED.moveToLine|block": "游标移至第|$n|行",
-  "OLED.writeNumNewLine|block": "显示数字 $n",
-  "OLED.writeNum|block": "新行显示数字 $n",
-  "OLED.writeStringNewLine|block": "新行显示字符串 $str",
+  "OLED.writeNumNewLine|block": "显示数字后换行 $n",
+  "OLED.writeNum|block": "显示数字 $n",
+  "OLED.writeStringNewLine|block": "显示字符串后换行 $str",
   "OLED.writeString|block": "显示字符串 $str",
   "{id:category}Math": "Math",
   "{id:category}OLED": "OLED"
